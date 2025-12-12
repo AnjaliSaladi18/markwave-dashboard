@@ -1,7 +1,8 @@
 // src/features/products/productsSlice.js
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 
-const API_URL = "http://localhost:5000/products";
+const API_URL = "https://markwave-dashboard-kkt4.onrender.com/products";
+
 
 /* -------------------------
    ASYNC THUNKS (API calls)

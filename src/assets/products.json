@@ -1,0 +1,58 @@
+[
+  {
+    "id": "MURRAH-001",
+    "name": "Murrah Buffalo",
+    "age": 3,
+    "location": "Sudanipur, Uttar Pradesh, India",
+    "description": "The Murrah is a premium dairy buffalo known for its jet-black coat, strong build, and curved horns. It is famous for high milk yield and excellent adaptability.",
+    "images": [
+      "/assets/m1.jpg",
+      "/assets/m2.jpg"
+    ],
+    "stock": "In Stock",
+    "price": 175000,
+    "insurance": 13000
+  },
+  {
+    "id": "JAFF-001",
+    "name": "Jaffarabadi Buffalo",
+    "age": 3,
+    "location": "Gujarat, India",
+    "description": "The Jaffarabadi is one of the heaviest and strongest buffalo breeds. It offers good milk production and is valued for its robustness and disease resistance.",
+    "images": [
+      "/assets/j1.jpg",
+      "/assets/j2.jpg"
+    ],
+    "stock": "Out of Stock",
+    "price": 175000,
+    "insurance": 13000
+  },
+  {
+    "id": "SURTI-001",
+    "name": "Surti Buffalo",
+    "age": 3,
+    "location": "Gujarat, India",
+    "description": "Surti buffaloes are medium-sized with sickle-shaped horns and are known for moderate milk yield and high-fat content.",
+    "images": [
+      "/assets/s1.jpg",
+      "/assets/s2.jpg"
+    ],
+    "stock": "Out of Stock",
+    "price": 120000,
+    "insurance": 13000
+  },
+  {
+    "id": "BHAD-001",
+    "name": "Bhadawari Buffalo",
+    "age": 3,
+    "location": "Uttar Pradesh & Madhya Pradesh, India",
+    "description": "Bhadawari buffaloes are hardy animals with high-fat milk and excellent heat tolerance, making them ideal for hot climates.",
+    "images": [
+      "/assets/b1.jpg",
+      "/assets/b2.jpg"
+    ],
+    "stock": "Out of Stock",
+    "price": 100000,
+    "insurance": 13000
+  }
+]

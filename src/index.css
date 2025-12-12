@@ -1,0 +1,90 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.8s ease-out;
+}
+
+.btn-glow {
+  transition: all 0.25s ease;
+}
+
+.btn-glow:hover {
+  box-shadow: 0 0 10px #00878a, 0 0 20px #00878a;
+  transform: translateY(-1px);
+}
+@keyframes pulseSoft {
+  0% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgba(0, 135, 138, 0.4);
+  }
+  70% {
+    transform: scale(1.06);
+    box-shadow: 0 0 12px 4px rgba(0, 135, 138, 0.2);
+  }
+  100% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgba(0, 135, 138, 0.4);
+  }
+}
+
+.pulse-soft {
+  animation: pulseSoft 2.3s infinite ease-in-out;
+}
+
+@keyframes zoomFade {
+  0% {
+    opacity: 0;
+    transform: scale(0.85);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.modal-zoom {
+  animation: zoomFade 0.25s ease-out;
+}
+
+@keyframes bgMove {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.animate-bgMove {
+  animation: bgMove 12s ease-in-out infinite;
+  background-size: 200% 200%;
+}
+
+.card-hover {
+  transition: 0.3s ease;
+}
+
+.card-hover:hover {
+  box-shadow: 0 0 15px rgba(0, 135, 138, 0.6);
+  transform: translateY(-4px);
+}
+
+* {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
